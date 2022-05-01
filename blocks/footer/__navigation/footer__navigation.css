@@ -1,0 +1,16 @@
+.footer__navigation {
+    display: grid;
+    grid-gap: 18px;
+    grid-template-columns: repeat(5, max-content);
+    grid-template-rows: 18px;
+    margin: 0;
+}
+
+@media screen and (max-width:767px) and (min-width: 320px) {
+    .footer__navigation{
+        grid-gap: 32px;
+        grid-template-columns: max-content;
+        grid-template-rows: repeat(5, max-content);
+        margin: 0;
+    }
+}
