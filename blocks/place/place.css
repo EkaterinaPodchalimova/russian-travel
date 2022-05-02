@@ -3,8 +3,8 @@
     height: 100%;
     display: grid;
     grid-auto-flow: column;
-    grid-template-columns: minmax(460px, 1fr) minmax(484px, max-content);
-    grid-template-rows: max-content minmax(460px, 1fr);
+    grid-template-columns: 460px minmax(484px, 1fr);
+    grid-template-rows: max-content 460px;
     grid-gap: 48px 3.125vw;
     margin: 0;
     grid-template-areas:
@@ -14,14 +14,14 @@
 
 @media screen and (max-width: 1279px) {
     .place {
-        grid-template-columns: minmax(440px,1fr) minmax(456px, max-content);
-        grid-template-rows: max-content minmax(440px,1fr);
+        grid-template-columns: 440px minmax(456px, max-content);
+        grid-template-rows: max-content 440px;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .place {
-        grid-template-columns: minmax(340px,1fr) minmax(352px, max-content);
+        grid-template-columns: 340px  minmax(352px, max-content);
         grid-template-rows: max-content minmax(340px,1fr);
         grid-gap: 48px 28px;
     }

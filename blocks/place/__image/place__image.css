@@ -1,8 +1,16 @@
 .place__image {
     width: 100%;
     object-fit: cover;
+    object-position: 0 0;
     padding-bottom: 100%;
     grid-area: place__image;
+}
+
+@media screen and (max-width: 1023px) {
+    .place__image {
+        height: 340px;
+        padding-bottom: 0;
+    }
 }
 
 @media screen and (max-width: 767px) and (min-width: 320px) {
