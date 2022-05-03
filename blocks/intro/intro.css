@@ -1,9 +1,9 @@
 .intro {
     margin-top: 0;
     padding-top: 92px;
-    width: 690px;
-    height: 429px;
+    max-width: 690px;
     margin-left: 148px;
+    height: fit-content;
 }
 
 @media screen and (max-width: 1279px) {
@@ -26,6 +26,5 @@
         padding-top: 64px;
         width: calc(100% - 2*16px);
         margin: 0 auto;
-        height: max-content;
     }
 }

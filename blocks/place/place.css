@@ -5,7 +5,7 @@
     grid-auto-flow: column;
     grid-template-columns: 460px minmax(484px, 1fr);
     grid-template-rows: max-content 460px;
-    grid-gap: 48px 3.125vw;
+    grid-gap: 48px 40px;
     margin: 0;
     grid-template-areas:
     "place__title place__website"
@@ -14,6 +14,7 @@
 
 @media screen and (max-width: 1279px) {
     .place {
+        grid-gap: 48px 32px;
         grid-template-columns: 440px minmax(456px, max-content);
         grid-template-rows: max-content 440px;
     }

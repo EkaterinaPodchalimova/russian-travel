@@ -1,6 +1,6 @@
 .cover__background {
-    width: calc(100vw - 2*48px);
-    height: calc(0.625*(100vw - 2*48px));
+    width: calc(100% - 2*48px);
+    height: 100%;
     background-image: url(../../../images/cover-trains.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -14,8 +14,8 @@
 
 .cover__background:before {
     content: '';
-    width: 100%;
     height: 100%;
+    width: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -31,6 +31,5 @@
 @media screen and (max-width: 1279px) {
     .cover__background {
         width: 100%;
-        height: 100%;
     }
 }

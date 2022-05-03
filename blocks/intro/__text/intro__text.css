@@ -1,15 +1,8 @@
 .intro__text {
     padding-top: 40px;
     width: 100%;
-    height: 208px;
     font-weight: 400;
     font-size: 1rem;
     line-height: 163%;
     margin: 0;
-}
-
-@media screen and (max-width: 767px) {
-    .intro__text {
-        height: fit-content;
-    }
 }

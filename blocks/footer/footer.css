@@ -4,7 +4,6 @@
     width: calc(100% - 2*48px);
     margin: 92px auto 0 auto;
     padding-bottom: 24px;
-    height: 18px;
 }
 
 @media screen and (max-width: 1023px) {
@@ -19,7 +18,5 @@
         margin: 64px auto 0 16px;
         width: max-content;
         flex-direction: column;
-        justify-content: space-between;
-        height: 310px;
     }
 }
